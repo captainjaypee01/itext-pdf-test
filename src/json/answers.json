@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "question": "What currency do you want to open?",
+    "type": "radio",
+    "answers": {
+      "id": 1,
+      "description": "Canadian Dollar",
+      "questionId": 1,
+      "score": 3
+    }
+  },
+  {
+    "id": 2,
+    "question": "What type of investment are you looking for?",
+    "type": "select",
+    "answers": {
+      "id": 1,
+      "description": "Long term investment",
+      "questionId": 2,
+      "score": 6
+    }
+  },
+  {
+    "id": 3,
+    "question": "Which age group are you?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "id": 8,
+        "description": "18-25",
+        "questionId": 3,
+        "score": 9
+      },
+      {
+        "id": 9,
+        "description": "26-40",
+        "questionId": 3,
+        "score": 8
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Describe your job?",
+    "type": "text",
+    "answers": {
+      "value": "Test"
+    }
+  },
+  {
+    "id": 45,
+    "question": "How likely are you going to invest next month?",
+    "type": "text",
+    "answers": {
+      "value": "100%"
+    }
+  },
+  {
+    "id": 6,
+    "question": "What is your sex at birth",
+    "type": "button",
+    "answers": {
+      "id": 7,
+      "questionId": 6,
+      "description": "Female",
+      "score": 9
+    }
+  }
+]
